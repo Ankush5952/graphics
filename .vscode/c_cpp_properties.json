@@ -5,12 +5,15 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/MinGW/include",
-                "C:/Users/Lenovo/Documents/Libs and Includes/Includes/**"
+                "C:/Users/Lenovo/Documents/Libs and Includes/Includes/**",
+                "C:/raylib/raylib/src/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "GRAPHICS_API_OPENGL_33",
+                "PLATFORM_DESKTOP"
             ],
             "windowsSdkVersion": "10.0.26100.0",
             "cStandard": "c17",
